@@ -1,0 +1,38 @@
+{
+  "name": "conflict-dashboard",
+  "version": "1.0.0",
+  "description": "Real-time geopolitical conflict tracker for Europe & Russia",
+  "homepage": "https://velle999.github.io/conflict-dashboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "Velle",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

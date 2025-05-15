@@ -1,0 +1,68 @@
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.map-section {
+  height: 600px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+  border: 2px solid #222;
+}
+
+.news-feed {
+  background: #111;
+  padding: 1rem;
+}
+
+.news-feed h2 {
+  color: #0ff;
+  margin-bottom: 0.5rem;
+}
+
+.news-feed a {
+  color: #7cf;
+  text-decoration: none;
+}
+
+.news-feed a:hover {
+  text-decoration: underline;
+}
+
+.alert-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ff0033;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  z-index: 9999;
+  animation: pulse 1s infinite alternate;
+  box-shadow: 0 0 10px #ff0033;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+    box-shadow: 0 0 10px #ff0033;
+  }
+  100% {
+    opacity: 0.6;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ff0033;
+  }
+}

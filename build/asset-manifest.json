@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/conflict-dashboard/static/css/main.5c61b401.css",
+    "main.js": "/conflict-dashboard/static/js/main.885b1885.js",
+    "index.html": "/conflict-dashboard/index.html",
+    "main.5c61b401.css.map": "/conflict-dashboard/static/css/main.5c61b401.css.map",
+    "main.885b1885.js.map": "/conflict-dashboard/static/js/main.885b1885.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c61b401.css",
+    "static/js/main.885b1885.js"
+  ]
+}
