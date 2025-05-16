@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Eastern Ukraine",
+    "risk": "High",
+    "position": [48.3794, 31.1656],
+    "troops": 15000,
+    "description": "Active conflict zone with ongoing Russian aggression."
+  },
+  {
+    "name": "Kaliningrad",
+    "risk": "Medium",
+    "position": [54.7104, 20.4522],
+    "troops": 4000,
+    "description": "Russian military enclave near NATO borders."
+  },
+  {
+    "name": "Transnistria",
+    "risk": "Elevated",
+    "position": [47.0105, 28.8638],
+    "troops": 1200,
+    "description": "Pro-Russian separatist region in Moldova."
+  }
+]
